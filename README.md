@@ -1,8 +1,8 @@
 # Bun websocket chat app
 
-### Server: Bun, Elysia
+#### Server: Bun, Elysia
 
-### Client: Bun, Astro, Solid.js
+#### Client: Bun, Astro, Solid.js
 
 ## Start with docker
 
