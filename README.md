@@ -1,5 +1,8 @@
 # Bun websocket chat app
 
+#### Live demo:
+https://chat.oki.gg/
+
 #### Server: 
 Bun, Elysia
 
