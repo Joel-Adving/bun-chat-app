@@ -245,10 +245,10 @@ export default function Chat() {
           </button>
         </form>
       ) : (
-        <div class="bottom-[20%] fixed w-[30rem]">
+        <div class="sm:bottom-[15%] bottom-[1rem] fixed max-w-[30rem] w-full px-4">
           <div
             id="messagesContainer"
-            class="overflow-y-auto max-h-[calc(70dvh-10rem)] pb-4 flex flex-col gap-1"
+            class="overflow-y-auto sm:max-h-[calc(65dvh-5rem)] max-h-[calc(91.5dvh-5rem)] pb-4 flex flex-col gap-1"
           >
             <For each={messages()}>{(message) => <p>{message}</p>}</For>
           </div>
